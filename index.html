@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="img/marte.png">
+        <meta charset="UTF-8">
+        <title>INICIO | ROBOB</title>
+        <style>
+            @import url(https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Square+Peg&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Shrikhand&family=Square+Peg&display=swap);
+            body {
+                animation-name: body-animation-start;
+                animation-timing-function: linear;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+            }
+            @keyframes body-animation-start {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            .banner1 {
+                background: url(https://images.unsplash.com/photo-1617896376265-28bcb35febf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+                height: 500px;
+                width: 100%;
+                overflow: hidden;
+            }
+            .banner1-title-1 {
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                line-height: 0;
+            }
+            .banner1-title-1 h1 {
+                font-family: 'Staatliches', verdana;
+                font-size: 120px;
+                text-align: center;
+            }
+            .banner1-title-1 p {
+                text-align: center;
+                font-size: 36px;
+                font-family: 'Square Peg', cursive;
+                position: relative;
+                bottom: 40px;
+            }
+            .banner1-img img {
+                animation-name: banner1-img-animation;
+                animation-duration: 120s;
+                animation-iteration-count: infinite;
+                position: relative;
+                animation-timing-function: linear;
+                bottom: 9em;
+                right: 5%;
+                border-radius: 50%;
+                border: 1px solid black;
+                width: 50%;
+                height: auto;
+            }
+            @keyframes banner1-img-animation {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(360deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><p>Inicio</p><hr></a></li>
+                    <li><a href="prototipo.html"><p>Prototipo</p><hr></a></li>
+                    <li><a href="contexto.html"><p>Contexto</p><hr></a></li>
+                    <li><a href="ventas.html"><p>Ventas</p><hr></a></li>
+                    <li><a href="nosotros.html"><p>Nosotros</p><hr></a></li>
+                </ul>
+            </nav>
+            <nav class="nav2">
+                <a href="https://liceoandes.duoc.cl/" target="_blank"><img src="img/logo-lpa.png" alt="LPA"></a>
+                <a href="https://www.nasa.gov/" target="_blank"><img src="img/nasa-logo.png" alt="NASA"></a>
+            </nav>
+        </header>
+        <main>
+            <div class="banner1">
+                <div class="banner1-title-1"><h1>ROBOB</h1><p>De Renca a Marte</p></div>
+                <div class="banner1-bottom-side">
+                   <div class="banner1-img">
+                        <img src="img/marte.png">
+                    </div>    
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><p>Inicio</p></a></li>
+                    <li><a href="prototipo.html"><p>Prototipo</p></a></li>
+                    <li><a href="contexto.html"><p>Contexto</p></a></li>
+                    <li><a href="ventas.html"><p>Ventas</p></a></li>
+                    <li><a href="nosotros.html"><p>Nosotros</p></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

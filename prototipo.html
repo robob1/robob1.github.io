@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="img/marte.png">
+        <meta charset="UTF-8">
+        <title>PROTOTIPO | ROBOB</title>
+        <style>
+            @import url(https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Square+Peg&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Shrikhand&family=Square+Peg&display=swap);
+
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shrikhand&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+            .title1 {
+                height: 50px;
+            }
+            .title1 h1 {
+                font-family: 'Bebas Neue', fantasy;
+                font-size: 96px;
+                line-height: 0;
+                text-align: center;
+            }
+            .article1 {
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+            }
+            .article1 div p {
+                width: 60%;
+                text-align: justify;
+                font-family: 'Verdana';
+                line-height: 1.5;
+            }
+            .article1 p,a,h2 {
+                color: white;
+            }
+            .article1-text {
+                width: 35%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .article1 div h2 {
+                font-family: 'Anton';
+                font-weight: 100;
+            }
+            .article1-text2 {
+                width: 35%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .article1-img {
+                width: 30%;
+                position: relative;
+                top: 20px;
+            }
+            .article1-img img {
+                width: 100%;
+                height: auto;
+            }
+            .article1-text2-button {
+                background-color: white;
+                padding: 5px 10px 5px 10px;
+                border-radius: 10px;
+                border: 2px solid white;
+                transition: 1s;
+            }
+            .article1-text2-button:hover {
+                transition: 1s;
+                filter: invert(1);
+                border: 2px solid black;
+            }
+            .article1-text2-button a {
+                text-decoration: none;
+                font-family: 'Square Peg', cursive;
+            }
+            .article1-text2-button a p {
+                color: black;
+                width: 100%;
+                text-align: center;
+            }
+            .section1 {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: auto;
+                background-color: black;
+            }
+            .section1-section {
+                width: 33.333%;
+                height: 520px;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+            }
+            .section1-section-img {
+                width: 100%;
+                height: auto;
+            }
+            .section1-section-img img {
+                width: 100%;
+                height: 100%;
+                filter: blur(5px);
+                transition: 1s;
+            }
+            .section1-section-text1 h2 {
+                color: white;
+                text-align: center;
+                position: relative;
+                bottom: 10px;
+                font-family: 'Bebas Neue', fantasy;
+                font-weight: 100;
+            }
+            .section1-section-text1-list ul li {
+                font-family: sans-serif;
+                line-height: 1.5;
+                opacity: 0%;
+            }
+            .section1-section:hover div div ul {
+                position: relative;
+                bottom: 0px;
+            }
+            .section1-section-text1 {
+                -webkit-box-shadow: 0px -4px 8px 3px #000000; 
+                box-shadow: 0px -4px 8px 0px #000000;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(52, 52, 53));
+                position: relative;
+            }
+            .section1-section-text1-list {
+                margin: 0 auto;
+                color: white;
+                width: 75%;
+            }
+            .hover-teleco:hover div {
+                transition: 1s;
+                bottom: 55px;
+            }
+            .hover-teleco:hover li {
+                opacity: 100%;
+            }
+            .section1-section:hover img {
+                transition: 1s;
+                filter: blur(0px);
+            }
+            .linone {
+                opacity: 0% !important;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><p>Inicio</p><hr></a></li>
+                    <li><a href="prototipo.html"><p>Prototipo</p><hr></a></li>
+                    <li><a href="contexto.html"><p>Contexto</p><hr></a></li>
+                    <li><a href="ventas.html"><p>Ventas</p><hr></a></li>
+                    <li><a href="nosotros.html"><p>Nosotros</p><hr></a></li>
+                </ul>
+            </nav>
+            <nav class="nav2">
+                <a href="https://liceoandes.duoc.cl/" target="_blank"><img src="img/logo-lpa.png" alt="LPA"></a>
+                <a href="https://www.nasa.gov/" target="_blank"><img src="img/nasa-logo.png" alt="NASA"></a>
+            </nav>
+        </header>
+        <main>
+            <div class="title1"><h1>ROBOB Prototype</h1></div>
+            <article class="article1">
+                <div class="article1-text">
+                    <h2>
+                        ¿Cuál es nuestra misión?
+                    </h2>
+                    <p>
+                        Nuestro proyecto "ROBOB", tiene como misión principal cumplir de forma exitosa obras de contrucción en
+                        los terrenos del planeta Marte, teniendo como resultado la elaboración de multiples domos habitables
+                        para el ser humano.
+                    </p>
+                </div>
+                <div class="article1-img">
+                    <img src="img/martes.jpg">
+                </div>
+                <div class="article1-text2">
+                    <h2>
+                        ¿Deseas adquirir nuestro producto?
+                    </h2>
+                    <p>
+                        Unete al futuro y adquiere nuestro producto con la mejor calidad del mercado tecnológico.
+                    </p>
+                    <div class="article1-text2-button"><a href="ventas.html"><p>CONTACTA AQUÍ</p></a></div>
+                </div>
+            </article>
+            <section class="section1">
+                <div class="section1-section hover-teleco">
+                    <div class="section1-section-img">
+                        <img src="img/telecomunicaciones.png">
+                    </div>
+                    <div class="section1-section-text1">
+                        <h2>TELECOMUNICACIONES</h2>
+                        <div class="section1-section-text1-list">
+                            <ul>
+                                <li>Conexión de radiocontrol a 27 MHz</li>
+                                <li class="linone">a</li>
+                                <li>Cámara fotográfica y de video</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section1-section hover-teleco">
+                    <div class="section1-section-img">
+                        <img src="img/electronica.jpg">
+                    </div>
+                    <div class="section1-section-text1">
+                        <h2>ELECTRÓNICA</h2>
+                        <div class="section1-section-text1-list">
+                            <ul>
+                                <li>Circuito eléctrico</li>
+                                <li class="linone">a</li>
+                                <li>Paneles solares</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section1-section hover-teleco">
+                    <div class="section1-section-img">
+                        <img src="img/mecanica.jpg">
+                    </div>
+                    <div class="section1-section-text1">
+                        <h2>MECÁNICA</h2>
+                        <div class="section1-section-text1-list">
+                            <ul>
+                                <li>Sistemas hidráulicos.</li>
+                                <li>Direccionamiento del auto y suspenciones.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><p>Inicio</p></a></li>
+                    <li><a href="prototipo.html"><p>Prototipo</p></a></li>
+                    <li><a href="contexto.html"><p>Contexto</p></a></li>
+                    <li><a href="ventas.html"><p>Ventas</p></a></li>
+                    <li><a href="nosotros.html"><p>Nosotros</p></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
