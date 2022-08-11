@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <title>PAGE | ROBOB</title>
+        <style>
+            @import url(https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Square+Peg&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Shrikhand&family=Square+Peg&display=swap);
+
+
+
+            .article1 {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                background: url(https://images.unsplash.com/photo-1617896376265-28bcb35febf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+            }
+            .article1-text-top-subtitle h2 {
+                font-family: 'Square Peg', cursive;
+                text-align: center;
+                color: white;
+                width: 100%;
+            }
+            .article1-text-maintitle h1 {
+                font-family: 'Shrikhand', fantasy;
+                color: white;
+                text-align: center;
+                font-size: 96px;
+                width: 100%;
+                line-height: 0;
+            }
+            .article1-img {
+                width: 50%;
+                height: 200px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            @keyframes initial-rotate-marte {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(360deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+            .article1-img img {
+                width: 100%;
+                height: auto;
+                animation-name: initial-rotate-marte;
+                animation-iteration-count: infinite;
+                animation-duration: 480s;
+                animation-timing-function: linear;
+            }
+
+            .main-hr hr {
+                border: 2px solid black;
+                border-radius: 10px;
+                width: 80%;
+            }
+            .article2 {
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                border-bottom: 2px solid white;
+            }
+            .article2-title {
+                font-family: 'Staatliches', fantasy;
+                text-align: center;
+                font-size: 36px;
+                height: 80px;
+                position: relative;
+                bottom: 30px;
+                color: white;
+            }
+            .article2-description {
+                width: 60%;
+                margin: 0 auto;
+            }
+            .article2-description p {
+                color: white;
+                text-align: justify;
+                line-height: 1.5;
+                font-family: Arial;
+                font-size: 24px;
+                font-weight: 100;
+            }
+            .sections-flex {
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+                border-bottom: 2px solid white;
+            }
+            .sections-img {
+                width: 40%;
+                height: auto;
+            }
+            .sections-img img {
+                width: 100%;
+                height: auto;
+            }
+            .sections-text {
+                width: 60%;
+            }
+            .sections-text-title {
+                text-align: center;
+                font-size: 24px;
+                font-family: 'Staatliches', fantasy;
+                color: white;
+            }
+            .sections-text-description {
+                text-align: justify;
+                width: 80%;
+                margin: 0 auto;
+                color: white;
+                font-size: 18px;
+                line-height: 2;
+                font-family: verdana;
+                font-weight: 400;
+            }
+            .sections-list {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .sections-list-row {
+                display: flex;
+                flex-direction: row;
+            }
+            .sections-list-row-content {
+                display: flex;
+                flex-direction: row;
+                width: 50%;
+                border: 1px solid white;
+                background-color: black;
+                color: white;
+            }
+            .inverted {
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            .sections-list-row-content-text-title {
+                text-align: center;
+                font-family: 'Libre Franklin';
+            }
+            .sections-list-row-content-text-description {
+                line-height: 1.5;
+                text-align: justify;
+                font-family: verdana;
+                width: 80%;
+                margin: 0 auto;
+            }
+            .sections-list-row-content-img {
+                transition: 1s;
+                overflow: hidden;
+            }
+            .sections-list-row-content h1,p {
+                opacity: 70%;
+                transition: 1s;
+            }
+            .sections-list-row-content:hover h1 {
+                opacity: 100%;
+            }
+            .sections-list-row-content:hover p {
+                opacity: 100%;
+            }
+            .sections-list-row-content:hover img {
+                transition: 1s;
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><p>Inicio</p><hr></a></li>
+                    <li><a href="prototipo.html"><p>Prototipo</p><hr></a></li>
+                    <li><a href="contexto.html"><p>Contexto</p><hr></a></li>
+                    <li><a href="ventas.html"><p>Ventas</p><hr></a></li>
+                    <li><a href="nosotros.html"><p>Nosotros</p><hr></a></li>
+                </ul>
+            </nav>
+            <nav class="nav2">
+                <a href="https://liceoandes.duoc.cl/" target="_blank"><img src="img/logo-lpa.png" alt="LPA"></a>
+                <a href="https://www.nasa.gov/" target="_blank"><img src="img/nasa-logo.png" alt="NASA"></a>
+            </nav>
+        </header>
+        <main>
+            <article class="article1">
+                <div class="article1-text">
+                    <div class="article1-text-top-subtitle">
+                        <h2>NUESTRA NUEVA SOCIEDAD</h2>
+                    </div>
+                    <div class="article1-text-maintitle">
+                        <h1>ROBEARTH</h1>
+                    </div>
+                </div>
+                <div class="article1-img">
+                    <img src="img/marte.png">
+                </div>
+            </article>
+            <div class="main-hr">
+                <hr>
+            </div>
+            <article class="article2">
+                <div class="article2-title">
+                    <h1>
+                        ¿DE QUÉ TRATA ESTA SOCIEDAD?
+                    </h1>
+                </div>
+                <div class="article2-description">
+                    <p>
+                        Hay que colonizar marte y formar una nueva civilización y mundo. Hacer este mundo 
+                        justo y equitativo, en el cual evitar en lo más posible los conflictos, pobrezas
+                        éticas incorrectas y poco morales, faltas de respeto y acciones incorrectas.
+                        En este articulo te presentamos leyes tanto sociales, como educacionales y económicas.
+                        Tomando como eje principal el cuidado del medio ambiente, los recursos del planeta y 
+                        la salud mental de los habitantes.
+                    </p>
+                </div>
+            </article>
+            <section class="sections">
+                <div class="sections-flex">
+                    <div class="sections-img">
+                        <img src="img/superficie-marte.jpg">
+                    </div>
+                    <div class="sections-text">
+                        <div class="sections-text-title">
+                            <h1>
+                                MEDIOAMBIENTE
+                            </h1>
+                        </div>
+                        <div class="sections-text-description">
+                            <p>
+                                Como parte del medioambiente, nuestra visión siempre será dirigida a 
+                                cuidar esta misma, y hacer de esta una parte fundamental de la supervivencia
+                                del ser humano al interior de este planeta
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sections-flex-list">
+                    <div class="sections-list">
+                        <div class="sections-list-row">
+
+                                <div class="sections-list-row-content left animation-top-left">
+                                    <div class="sections-list-row-content-text">
+                                        <div class="sections-list-row-content-text-title">
+                                            <h1>ENERGÍAS RENOVABLES</h1>
+                                        </div>
+                                        <div class="sections-list-row-content-text-description">
+                                            <p>
+                                                Como primeras medidas, aplicaremos un uso de energías 
+                                                autosustentables como lo es la energia solar, con paneles
+                                                solares. Además de la energía eólica o hidráulica.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="sections-list-row-content-img">
+                                        <img src="img/img500.png">
+                                    </div>
+                                </div>
+                                <div class="sections-list-row-content inverted">
+                                    <div class="sections-list-row-content-text">
+                                        <div class="sections-list-row-content-text-title">
+                                            <h1>
+                                                COMBUSTIBLES FÓSILES
+                                            </h1>
+                                        </div>
+                                        <div class="sections-list-row-content-text-description">
+                                            <p>
+                                                Reducción de combustibles fosiles para minimizar la producción 
+                                                de futura contamincación al interior del planeta.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="sections-list-row-content-img">
+                                        <img src="img/img500.png">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="sections-list-row">
+                            <div class="sections-list-row-content inverted">
+                                <div class="sections-list-row-content-text">
+                                    <div class="sections-list-row-content-text-title">
+                                        <h1>ENERGÍAS RENOVABLES</h1>
+                                    </div>
+                                    <div class="sections-list-row-content-text-description">
+                                        <p>
+                                            Como primeras medidas, aplicaremos un uso de energías 
+                                            autosustentables como lo es la energia solar, con paneles
+                                            solares. Además de la energía eólica o hidráulica.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sections-list-row-content-img">
+                                    <img src="img/img500.png">
+                                </div>
+                            </div>
+                            <div class="sections-list-row-content">
+                                <div class="sections-list-row-content-text">
+                                    <div class="sections-list-row-content-text-title">
+                                        <h1>
+                                            COMBUSTIBLES FÓSILES
+                                        </h1>
+                                    </div>
+                                    <div class="sections-list-row-content-text-description">
+                                        <p>
+                                            Reducción de combustibles fosiles para minimizar la producción 
+                                            de futura contamincación al interior del planeta.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sections-list-row-content-img">
+                                    <img src="img/img500.png">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><p>Inicio</p></a></li>
+                    <li><a href="prototipo.html"><p>Prototipo</p></a></li>
+                    <li><a href="contexto.html"><p>Contexto</p></a></li>
+                    <li><a href="ventas.html"><p>Ventas</p></a></li>
+                    <li><a href="nosotros.html"><p>Nosotros</p></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

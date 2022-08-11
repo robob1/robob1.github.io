@@ -10,7 +10,7 @@
             @import url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap);
             @import url(https://fonts.googleapis.com/css2?family=Square+Peg&display=swap);
             @import url(https://fonts.googleapis.com/css2?family=Shrikhand&family=Square+Peg&display=swap);
-            body {
+            /* body {
                 animation-name: body-animation-start;
                 animation-timing-function: linear;
                 animation-duration: 1s;
@@ -23,7 +23,7 @@
                 100% {
                     opacity: 1;
                 }
-            }
+            } */
             .banner1 {
                 background: url(https://images.unsplash.com/photo-1617896376265-28bcb35febf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
                 height: 500px;
@@ -73,6 +73,9 @@
                     transform: rotate(0deg);
                 }
             }
+            .nasa-logo-radius {
+                border-radius: 50%;
+            }
         </style>
     </head>
     <body>
@@ -83,12 +86,13 @@
                     <li><a href="prototipo.html"><p>Prototipo</p><hr></a></li>
                     <li><a href="contexto.html"><p>Contexto</p><hr></a></li>
                     <li><a href="ventas.html"><p>Ventas</p><hr></a></li>
+                    <li><a href="futuro.html"><p>Futuro</p><hr></a></li>
                     <li><a href="nosotros.html"><p>Nosotros</p><hr></a></li>
                 </ul>
             </nav>
             <nav class="nav2">
                 <a href="https://liceoandes.duoc.cl/" target="_blank"><img src="img/logo-lpa.png" alt="LPA"></a>
-                <a href="https://www.nasa.gov/" target="_blank"><img src="img/nasa-logo.png" alt="NASA"></a>
+                <a href="https://www.nasa.gov/" target="_blank"><img class="nasa-logo-radius" src="img/nasa-logo.png" alt="NASA"></a>
             </nav>
         </header>
         <main>
